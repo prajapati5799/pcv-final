@@ -1,0 +1,307 @@
+/*
+Theme Name:   Survey Child
+Description:  Survey Child theme
+Author:       drc
+Author URL:   https://drcsystems.com/
+Template:     survey
+Version:      1.0
+License:      GNU General Public License v2 or later
+License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain:  survey-child
+*/
+
+/* Write here your own personal stylesheet */
+
+.row{
+margin-bottom: 30px;
+}
+
+.entry-header{
+	text-align: center;
+	font-weight: 700;
+	margin-right: 200px;
+	width: 100%;
+}
+
+.resource-content{
+	margin-top: 50px;
+}
+
+.back_button{
+	float: left;
+}
+
+.home-digit > .n2-ss-item-content {
+    display: flex !important;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-items:center;
+}
+
+.home-digit .digit-title {
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 55px;
+	color:#fff;	
+    margin-right: 31px;
+	font-family: 'Poppins', sans-serif;
+}
+
+.home-digit .digit-total {
+	display: flex;
+	flex-flow: row nowrap;
+	align-items: stretch;
+}
+
+.home-digit .digit-total span {
+    background: #fff;
+    color: #962781;
+    font-size: 75px;
+    font-weight: bold;
+    text-align: center;
+    padding: 00;
+    margin: 0 5px;
+    height: 90px;
+    width: 68px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid #D9D9D9;
+    line-height: 76px;
+    position: relative;
+    z-index: 9;
+	font-family: 'Poppins', sans-serif;
+}
+
+.home-digit .digit-total span:after {
+    content: "";
+    position: absolute;
+    height: 50%;
+    width: 100%;
+    background: #F2F2F2;
+    bottom: 0;
+    z-index: -1;
+    border-top: 1px solid #fff;
+}
+
+.heading{max-width:1176px;}
+.heading .n2-ow-all{max-width:558px;}
+.heading .n2-ow-all h1 {
+    color: #fff;
+    text-align: left;
+    font-size: 60px;
+    line-height: 72px;
+    margin-bottom: 20px;
+	letter-spacing:0.20px;
+}
+
+.heading .n2-ow-all p {
+    color: #fff !important;
+    font-size: 16px !important;
+    line-height: 30px !important;
+    letter-spacing: 0.20px !important;
+}
+
+.nextend-bullet-bar{margin-bottom:15px;}
+.nextend-bullet-bar .n2-bullet {
+    border-radius: 5px !important;
+    width: 68px;
+    padding: 0 !important;
+}
+
+a.down {
+    float: right;
+    margin: 30px 70px 0 0;
+}
+.arrowup {
+    float: right;
+    margin: -50px 70px 0 0;	
+    transform: rotate(-180deg);
+}
+
+.pagination-row .pagination li a {
+    border: 1px solid #f6881f;
+    color: #f6881f;
+}
+
+.pagination-row .pagination li a:hover,
+.pagination-row .pagination li.current a {
+    background-color: #f6881f;
+    color: #fff;
+}
+
+/* .wonderplugin-gridgallery-tags-topleft label select {
+    border: none;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #F6881F;
+} */
+
+.wonderplugin-gridgallery-tags-topleft label span{    
+	font-size: 16px;
+    font-weight: 500;
+    margin: 0 10px 0 0;
+    color: #000000;}
+
+.faq-inner .accordian-col .accordion-panel{
+	margin: 0 2.5% 30px 2.5%;
+    float: left;
+    width: 45%;
+}
+
+
+@media screen and (max-width:1440px){
+	.home-digit .digit-total span {		
+		font-size: 46px;		
+		height: 70px;
+		width: 50px;		
+		line-height: 56px;
+	}
+}
+
+@media screen and (max-width:1199px){
+	.home-digit .digit-title {
+		font-size: 24px;		
+    	line-height: 35px;
+		margin-right: 10px;
+	}
+	.home-digit .digit-total span {
+		font-size: 38px;
+		height: 60px;
+		width: 40px;
+		line-height: 50px;
+	}
+	.home-digit > .n2-ss-item-content{
+		padding-top:70px;
+	}
+	.heading .n2-ow-all {
+		max-width: 100%;		
+    	padding-top: 20px;
+	}
+	.heading .n2-ow-all h1 {
+		font-size: 45px;
+		line-height: 55px;
+	}
+}
+
+@media screen and (max-width:991px){
+	.home-digit > .n2-ss-item-content {
+		flex-direction: column;
+		align-items: flex-start;		
+	}
+	.home-digit .digit-title {		
+		margin: 0 0 10px 0;		
+    	text-align: left;
+	}
+}
+
+@media screen and (max-width:767px){
+	.faq-inner .accordian-col .accordion-panel{
+		width: 95%;
+	}
+}
+
+@media screen and (max-width:639px){
+	.nextend-bullet-bar .n2-bullet {    
+		width: 50px;
+	}
+}
+
+.wpcf7 form .wpcf7-response-output {
+	border-radius: 15px;
+}
+.helpie-faq.accordions .accordion .accordion__item {
+	list-style-type: none;
+    padding: 0;
+    margin: 0;
+	border-bottom: solid 0px #44596b;
+}
+.page-template-page-district_checklist_view .custom-fields.step.is_grid{
+	    pointer-events: none;
+    color: #AAA;
+    background: #F5F5F5 !important;
+}
+
+
+/*-customize-banner-text 28-6--*/
+
+.bannertext.home-digit {
+    position: absolute;
+    top: calc(50% - 120px);
+    z-index: 10;
+    right: 72px;
+    transform: translateY(-50%);
+}
+
+.home-digit {
+	max-width: 1150px !important;
+    margin: 0 auto !important;
+}
+
+.home-digit > .n2-ss-item-content {
+	display: block !important;
+	text-align: left !important;
+    margin: 0 !important;
+    font-size: 34px !important;
+    font-weight: 700 !important;
+    line-height: 55px !important;
+    color: #fff !important;
+    margin-right: 30px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+@media (max-width: 1299px) and (min-width: 1200px) {
+	.header .nav {padding-right: 110px;}
+	.home-digit .digit-total {margin-top: 40px;}
+}
+
+@media (max-width: 1199px) {
+	.bannertext.home-digit {
+		position: absolute;
+		top: 130px;
+		z-index: 10;
+		left: 0;
+		right: 0;
+		transform: none;
+		padding: 0 70px;
+	}
+	
+	.n2-ss-slider .n2-ss-layer-with-background {padding-top: 160px !important;}
+	.home-digit > .n2-ss-item-content {padding-top:0 !important; font-size: 24px !important; line-height: 35px !important;}
+}
+
+@media (orientation: landscape) and (max-width: 900px), (orientation: portrait) and (max-width: 700px) {
+	.bannertext.home-digit {padding:0 5px;}
+}
+
+/*------*/
+
+.left-right-align .left-content{
+    width: 50%;
+    float: left;
+}
+@media (max-width: 767px) {
+    .left-right-align .left-content{
+        width: 100%;
+        float: left;
+    }
+}
+
+.about_tbl table,
+.about_tbl table td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.about_tbl table td{
+  padding:10px 15px;
+  vertical-align:top;
+}
+
+.about_tbl table td ul {
+    margin: 0;
+    padding: 0 0 0 15px;
+    list-style: lower-alpha;
+}
+
+

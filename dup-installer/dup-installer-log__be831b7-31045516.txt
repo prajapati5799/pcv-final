@@ -1,0 +1,783 @@
+********************************************************************************
+* DUPLICATOR-LITE: Install-Log
+* STEP-1 START @ 09:36:43
+* VERSION: 1.4.5
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ CURRENT SERVER                         |ORIGINAL SERVER
+PHP VERSION_________: 7.2.31-1+ubuntu18.04.1+deb.sury.org+1 |7.4.26
+OS__________________: Linux                                 |Linux
+CREATED_____________: 2022-05-31 04:55:16
+WP VERSION__________: 5.9.3
+DUP VERSION_________: 1.4.5
+DB__________________: 5.7.38
+DB TABLES___________: 42
+DB ROWS_____________: 27,374
+DB FILE SIZE________: 52.13MB
+********************************************************************************
+SERVER INFO
+PHP_________________: 7.4.26 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.29 (Ubuntu)
+DOC ROOT____________: "/var/www/html/wordpress_projects/pcv-final"
+DOC ROOT 755________: true
+LOG FILE 644________: true
+REQUEST URL_________: "http://192.168.24.159/wordpress_projects/pcv-final/dup-installer/main.installer.php"
+********************************************************************************
+USER INPUTS
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "shellexec_unzip"
+SET DIR PERMS_______: 1
+DIR PERMS VALUE_____: 1363
+SET FILE PERMS______: 1
+FILE PERMS VALUE____: 1204
+SAFE MODE___________: "0"
+LOGGING_____________: "1"
+CONFIG MODE_________: "NEW"
+FILE TIME___________: "current"
+********************************************************************************
+
+
+--------------------------------------
+ARCHIVE SETUP
+--------------------------------------
+NAME________________: "/var/www/html/wordpress_projects/pcv-final/final_update_[HASH]_20220531045516_archive.zip"
+SIZE________________: 438.09MB
+
+PRE-EXTRACT-CHECKS
+- PASS: Apache '.htaccess' not found - no backup needed.
+- PASS: Microsoft IIS 'web.config' not found - no backup needed.
+- PASS: WordFence '.user.ini' not found - no backup needed.
+BEFORE EXTRACION ACTIONS
+MAINTENANCE MODE ENABLE
+
+
+START ZIP FILE EXTRACTION SHELLEXEC >>> 
+<<< Shell-Exec Unzip Complete.
+--------------------------------------
+POST-EXTRACT-CHECKS
+--------------------------------------
+PERMISSION UPDATES:
+    -DIRS:  '755'
+    -FILES: '644'
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/html/wordpress_projects/pcv-final/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/html/wordpress_projects/pcv-final/installer.php' failed
+[PHP ERR][WARN] MSG:chmod(): Operation not permitted [CODE:2|FILE:/var/www/html/wordpress_projects/pcv-final/dup-installer/lib/snaplib/class.snaplib.u.io.php|LINE:690]
+Permissions setting on file '/var/www/html/wordpress_projects/pcv-final/final_update_[HASH]_20220531045516_archive.zip' failed
+
+STEP-1 COMPLETE @ 09:36:53 - RUNTIME: 10.3304 sec.
+
+
+
+********************************************************************************
+* DUPLICATOR-LITE INSTALL-LOG
+* STEP-2 START @ 09:37:15
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+NON-BREAKING SPACES_: false
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8"
+COLLATE_____________: "utf8_general_ci"
+COLLATE FB__________: false
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTION CREATION___: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.7.36 -- Build Server: 5.7.38
+FILE SIZE:	dup-database__[HASH].sql (46.91MB)
+TIMEOUT:	5000
+MAXPACK:	16777216
+SQLMODE:	ONLY_FULL_GROUP_BY,STRICT_TRANS_TABLES,NO_ZERO_IN_DATE,NO_ZERO_DATE,ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+NEW SQL FILE:	[/var/www/html/wordpress_projects/pcv-final/dup-installer/dup-installer-data__[HASH].sql]
+COLLATE FB:	Off
+
+NOTICE: This servers version [5.7.36] is less than the build version [5.7.38].  
+If you find issues after testing your site please referr to this FAQ item.
+https://snapcreek.com/duplicator/docs/faqs-tech/#faq-installer-260-q
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+DB VIEWS:	enabled
+DB PROCEDURES:	enabled
+DB FUNCTIONS:	enabled
+ERRORS FOUND:	0
+DROPPED TABLES:	12
+RENAMED TABLES:	0
+QUERIES RAN:	422
+
+sur_actionscheduler_actions: (18)
+sur_actionscheduler_claims: (0)
+sur_actionscheduler_groups: (2)
+sur_actionscheduler_logs: (52)
+sur_cities: (519)
+sur_commentmeta: (0)
+sur_comments: (0)
+sur_countries: (5)
+sur_duplicator_packages: (0)
+sur_links: (0)
+sur_nextend2_image_storage: (12)
+sur_nextend2_section_storage: (8)
+sur_nextend2_smartslider3_generators: (0)
+sur_nextend2_smartslider3_sliders: (3)
+sur_nextend2_smartslider3_sliders_xref: (2)
+sur_nextend2_smartslider3_slides: (8)
+sur_options: (364)
+sur_pcv: (230)
+sur_pcv_district: (92)
+sur_postmeta: (9233)
+sur_posts: (556)
+sur_pp_login_builder: (3)
+sur_pp_password_reset_builder: (3)
+sur_pp_registration_builder: (3)
+sur_states: (32)
+sur_term_relationships: (98)
+sur_term_taxonomy: (16)
+sur_termmeta: (16)
+sur_terms: (16)
+sur_usermeta: (4841)
+sur_users: (272)
+sur_wap_nex_forms: (2)
+sur_wap_nex_forms_email_templates: (0)
+sur_wap_nex_forms_entries: (263)
+sur_wap_nex_forms_files: (124)
+sur_wap_nex_forms_stats_interactions: (5137)
+sur_wap_nex_forms_temp_entries: (272)
+sur_wap_nex_forms_temp_report: (0)
+sur_wap_nex_forms_views: (6433)
+sur_wonderplugin_gridgallery: (1)
+sur_wpmailsmtp_debug_events: (0)
+sur_wpmailsmtp_tasks_meta: (10)
+Removed '23' cache/transient rows
+
+INSERT DATA RUNTIME: 9.7185 sec.
+STEP-2 COMPLETE @ 09:37:24 - RUNTIME: 9.7730 sec.
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 09:37:30
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "PCV Checklist"
+postguid______________: false
+fullsearch____________: false
+path_old______________: "/var/www/html/wordpress-projects/pcv"
+path_new______________: "/var/www/html/wordpress_projects/pcv-final"
+siteurl_______________: "http://192.168.24.159/wordpress_projects/pcv-final"
+url_old_______________: "http://opso.dev.drcsystems.ooo/wordpress-projects/pcv"
+url_new_______________: "http://192.168.24.159/wordpress_projects/pcv-final"
+maxSerializeStrlen____: 4000000
+replaceMail___________: false
+dbcharset_____________: "utf8"
+dbcollate_____________: "utf8_general_ci"
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+ssl_admin_____________: false
+cache_wp______________: false
+cache_path____________: false
+exe_safe_mode_________: false
+config_mode___________: "NEW"
+********************************************************************************
+
+
+====================================
+RUN SEARCH AND REPLACE
+====================================
+
+EVALUATE TABLE: "sur_actionscheduler_actions"_____________________[ROWS:    18][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_actionscheduler_claims"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_actionscheduler_groups"______________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_actionscheduler_logs"________________________[ROWS:    52][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_cities"______________________________________[ROWS:   519][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_commentmeta"_________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_comments"____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_countries"___________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_duplicator_packages"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_links"_______________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_nextend2_image_storage"______________________[ROWS:    12][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_nextend2_section_storage"____________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_nextend2_smartslider3_generators"____________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_nextend2_smartslider3_sliders"_______________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_nextend2_smartslider3_sliders_xref"__________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_nextend2_smartslider3_slides"________________[ROWS:     8][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_options"_____________________________________[ROWS:   364][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_pcv"_________________________________________[ROWS:   230][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_pcv_district"________________________________[ROWS:    92][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_postmeta"____________________________________[ROWS:  9233][PG:   3][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_posts"_______________________________________[ROWS:   556][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_pp_login_builder"____________________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_pp_password_reset_builder"___________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_pp_registration_builder"_____________________[ROWS:     3][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_states"______________________________________[ROWS:    32][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_term_relationships"__________________________[ROWS:    98][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_term_taxonomy"_______________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_termmeta"____________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_terms"_______________________________________[ROWS:    16][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_usermeta"____________________________________[ROWS:  4841][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_users"_______________________________________[ROWS:   272][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms"_______________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms_email_templates"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_wap_nex_forms_entries"_______________________[ROWS:   263][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms_files"_________________________[ROWS:   124][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms_stats_interactions"____________[ROWS:  5137][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms_temp_entries"__________________[ROWS:   272][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wap_nex_forms_temp_report"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_wap_nex_forms_views"_________________________[ROWS:  6433][PG:   2][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wonderplugin_gridgallery"____________________[ROWS:     1][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+
+EVALUATE TABLE: "sur_wpmailsmtp_debug_events"_____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "sur_wpmailsmtp_tasks_meta"_______________________[ROWS:    10][PG:   1][SCAN:text columns]
+	SEARCH  1:"/var/www/html/wordpress-projects/pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  2:"\/var\/www\/html\/wordpress-projects\/pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  3:"%2Fvar%2Fwww%2Fhtml%2Fwordpress-projects%2Fpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  4:"\var\www\html\wordpress-projects\pcv" ============> "/var/www/html/wordpress_projects/pcv-final"
+	SEARCH  5:"\\var\\www\\html\\wordpress-projects\\pcv" =======> "\/var\/www\/html\/wordpress_projects\/pcv-final"
+	SEARCH  6:"%5Cvar%5Cwww%5Chtml%5Cwordpress-projects%5Cpcv" ==> "%2Fvar%2Fwww%2Fhtml%2Fwordpress_projects%2Fpcv-final"
+	SEARCH  7:"//opso.dev.drcsystems.ooo/wordpress-projects/pcv" => "//192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH  8:"\/\/opso.dev.drcsystems.ooo\/wordpress-projects\/pcv" => "\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH  9:"%2F%2Fopso.dev.drcsystems.ooo%2Fwordpress-projects%2Fpcv" => "%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+	SEARCH 10:"https://192.168.24.159/wordpress_projects/pcv-final" => "http://192.168.24.159/wordpress_projects/pcv-final"
+	SEARCH 11:"https:\/\/192.168.24.159\/wordpress_projects\/pcv-final" => "http:\/\/192.168.24.159\/wordpress_projects\/pcv-final"
+	SEARCH 12:"https%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final" => "http%3A%2F%2F192.168.24.159%2Fwordpress_projects%2Fpcv-final"
+--------------------------------------
+SCANNED:	Tables:42 	|	 Rows:28646 	|	 Cells:189508 
+UPDATED:	Tables:10 	|	 Rows:829 	|	 Cells:958 
+ERRORS:		0 
+RUNTIME:	1.479700 sec
+
+====================================
+REMOVE LICENSE KEY
+====================================
+
+====================================
+CREATE NEW ADMIN USER
+====================================
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://192.168.24.159/wordpress_projects/pcv-final"
+	UPDATE WP_SITEURL "http://192.168.24.159/wordpress_projects/pcv-final"
+	UPDATE DB_NAME "** OBSCURED **"
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	REMOVE WPCACHEHOME
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE MODE: "NEW"
+====================================
+- PASS: Successfully created a new .htaccess file.
+- PASS: Existing Apache '.htaccess__[HASH]' was removed
+
+====================================
+GENERAL UPDATES & CLEANUP
+====================================
+
+====================================
+DEACTIVATE PLUGINS CHECK
+====================================
+Auto Deactivated plugins list here: Array
+(
+    [0] => really-simple-ssl/rlrsssl-really-simple-ssl.php
+    [1] => simple-google-recaptcha/simple-google-recaptcha.php
+    [2] => js_composer/js_composer.php
+)
+
+MAINTENANCE MODE DISABLE
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================
+CLEANUP TMP FILES
+====================================
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:37:32 - RUNTIME: 1.6111 sec. 
+
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[INFO] Info
+	SECTIONS: general
+	LONG MSG:             The following is a list of notices that may need to be fixed in order to finalize your setup. These values should only be investigated if you're running into
+            issues with your site. For more details see the <a href="https://codex.wordpress.org/Editing_wp-config.php" target="_blank">WordPress Codex</a>.
+
+-----------------------
+[INFO] No errors in database
+	SECTIONS: database
+
+-----------------------
+[INFO] No search and replace data errors
+	SECTIONS: search_replace
+
+-----------------------
+[INFO] No files extraction errors
+	SECTIONS: files
+
+-----------------------
+[NOTICE] wp-config notice
+	SECTIONS: general
+	LONG MSG: WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+
+====================================

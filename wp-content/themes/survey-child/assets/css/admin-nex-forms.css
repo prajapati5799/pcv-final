@@ -1,0 +1,31 @@
+.submitssion_reports .dashboard-box-content h1 {font-size: 2em;font-weight: 600;}
+.submitssion_reports .dashboard-box-content h2 {font-size: 1.3em;font-weight: 600;}
+.submitssion_reports .dashboard-box-content h3 {font-size: 1.3em;font-weight: 600;}
+.submitssion_reports .dashboard-box-content h4 {font-size: 1em;font-weight: 600;}
+.submitssion_reports .dashboard-box-content h5 {font-size: .83em;font-weight: 600;}
+.dashboard-box.submitssion_reports .table_title {position: unset;left: unset;top: unset;}
+.submitssion_reports .dashboard-box-content .row h4 {color: #000;}
+.submitssion_reports .dashboard-box-content {background: #fcfcfc none repeat scroll 0 0;border-bottom: 1px solid #ddd;clear: both;margin: 0 !important;position: relative;}
+.common_box_main {width: 100%;}
+.common_box_main .common_box {width: 130px;float: left;padding: 0 10px;}
+.common_box_main .common_box:first-child {padding-left: 0;}
+.common_box_main .common_box:last-child {padding-right: 0;}
+.common_box_main .common_box .inner_common_box {width: 100%;float: left;background: #1976d2;border-radius: 6px;padding: 0 10px;text-align: center;color: #fff;}
+.common_box_main .common_box .inner_common_box.pending_box {background: #f57c00;}
+.common_box_main .common_box .inner_common_box.draft_box {background: #c5c5c5;}
+.common_box_main .common_box .inner_common_box.under_review_box {background: #856404;}
+.common_box_main .common_box .inner_common_box.reviwed_box {background: #155724;}
+.common_box_main .common_box .inner_common_box p:first-child {font-weight: bold;font-size: 18px;}
+.dashboard-box.form_analytics {margin-bottom: 0px !important;}
+.dashboard-box.submitssion_reports {margin-top: 0px;}
+.tour-nov-special-01,
+.tour-nov-special-02,
+.tour-claim-free-add-ons-01,
+.tour-claim-free-add-ons-01 {display: none !important;}
+.tour-backdrop {display: none !important;}
+
+.form-tbl-list .database_table.dashboard-box tbody tr td, 
+.form-tbl-list .database_table.dashboard-box thead th{max-width: 80px !important}
+
+.common_box_main{display: flex;}
+.common_box_main .common_box .inner_common_box{height: 100%; min-height: 133px;}

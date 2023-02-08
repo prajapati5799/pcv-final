@@ -1,0 +1,57 @@
+[26-Aug-2022 04:59:34 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcide() in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php:100
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php on line 100
+[26-Aug-2022 07:30:35 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function do_shortcde() in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php:104
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-includes/template-loader.php(106): include()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/index.php(17): require('/var/www/html/w...')
+#3 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php on line 104
+[29-Aug-2022 09:42:20 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[30-Aug-2022 06:20:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_current_screen() in /var/www/html/wordpress_projects/pcv-final/wp-admin/includes/template.php:1033
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/functions.php(165): add_meta_box()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-settings.php(555): include('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/wp-config.php(212): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress_projects/pcv-final/wp-load.php(50): require_once('/var/www/html/w...')
+#4 /var/www/html/wordpress_projects/pcv-final/wp-admin/admin.php(34): require_once('/var/www/html/w...')
+#5 /var/www/html/wordpress_projects/pcv-final/wp-admin/post-new.php(10): require_once('/var/www/html/w...')
+#6 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-admin/includes/template.php on line 1033
+[30-Aug-2022 09:36:51 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[30-Aug-2022 09:39:31 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[01-Sep-2022 04:51:45 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[01-Sep-2022 07:10:57 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[02-Sep-2022 04:55:28 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_parents(), 0 passed in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php on line 28 and at least 1 expected in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php:47
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php(28): get_category_parents()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress_projects/pcv-final/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php on line 47
+[02-Sep-2022 04:55:43 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_parents(), 0 passed in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php on line 28 and at least 1 expected in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php:47
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php(28): get_category_parents()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress_projects/pcv-final/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php on line 47
+[02-Sep-2022 04:56:37 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function get_category_parents(), 0 passed in /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php on line 28 and at least 1 expected in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php:47
+Stack trace:
+#0 /var/www/html/wordpress_projects/pcv-final/wp-content/themes/survey-child/page-templates/resources.php(28): get_category_parents()
+#1 /var/www/html/wordpress_projects/pcv-final/wp-includes/template-loader.php(106): include('/var/www/html/w...')
+#2 /var/www/html/wordpress_projects/pcv-final/wp-blog-header.php(19): require_once('/var/www/html/w...')
+#3 /var/www/html/wordpress_projects/pcv-final/index.php(17): require('/var/www/html/w...')
+#4 {main}
+  thrown in /var/www/html/wordpress_projects/pcv-final/wp-includes/category-template.php on line 47
+[02-Sep-2022 06:32:39 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[04-Oct-2022 11:54:15 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[04-Oct-2022 11:55:31 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309
+[31-Oct-2022 06:38:12 UTC] PHP Deprecated:  Non-static method ThemeActionFilters::add_redirect_url() should not be called statically in /var/www/html/wordpress_projects/pcv-final/wp-includes/class-wp-hook.php on line 309

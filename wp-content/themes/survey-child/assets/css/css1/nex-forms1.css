@@ -1,0 +1,442 @@
+/* state form css */  
+#nex-forms .modal-wrap .modal-content table {width: 100%;display: table;border: 1px solid #ccc;border-collapse: collapse;}
+#nex-forms .modal-wrap .modal-content table tr td, 
+#nex-forms .modal-wrap .modal-content table tr th {border: 1px solid #ccc;padding: 10px;}
+
+#nex-forms div[data-grid-name*="input-with-text"] {margin-bottom: 30px;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder > div {display: inline-block;vertical-align: middle;margin-bottom:10px !important;padding-right: 10px; margin-top:0px;}
+
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .form-control {border: none;border-bottom: 1px solid #7A1C68 !important;max-width: 90px;min-width: 1px;padding: 0;height: 20px; border-radius: 0px !important; background: transparent !important;box-shadow: none !important;color: #333 !important;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .paragraph {display: inline-block;margin: 0 0 20px !important;width: 100%;}
+
+.state-checklist-form {background: #fff;min-height: inherit;padding: 50px 0;}  
+.entry-title {margin: 0 0 50px;font-size: 30px;color: #333; /*font-family: 'Playfair Display', serif;*/ font-weight: 700; text-align: center;}
+
+.nex-forms-header {margin-bottom: 40px !important;text-align: center !important;}
+.nex-forms-header ul {display: inline-block !important;}
+
+.nf_ms_breadcrumb.bc-solid ul.md-color-default > li.current, #nex-forms .nf_ms_breadcrumb.triangular.bc-solid ul.md-color-default li.current::before, #nex-forms .nf_ms_breadcrumb.triangular.bc-solid ul.md-color-default li.current::after, #nex-forms .nf_ms_breadcrumb.triangular.bc-solid > ul.md-color-default li.current:first-child{
+background: #7A1C68 !important;
+}
+.nf_ms_breadcrumb > ul.md-color-default li.current {border: 2px solid #7A1C68 !important;}  
+
+.nf_ms_breadcrumb.bc-solid ul.md-color-default > li.visited, #nex-forms .nf_ms_breadcrumb.bc-solid.triangular ul.md-color-default li.visited::before, #nex-forms .nf_ms_breadcrumb.bc-solid.triangular ul.md-color-default li.visited::after {
+    background: #7A5868 !important ; opacity: 0.9;
+}
+.nf_ms_breadcrumb > ul.md-color-default li.visited {
+    border: 2px solid #7A5868 !important ;
+}
+
+.v7_container.form_type_normal{border-radius: 10px !important; padding: 40px 100px 40px 50px !important; box-shadow: none !important;}
+.nex_prev_steps {margin-top: 30px;border-top: 1px solid #ccc;padding: 30px 0 0;}
+.submit-button .btn {background: #7A1C68 !important;color: #fff !important;border-color: #7A1C68 !important;font-size: 16px !important;padding: 10px 30px !important;}
+
+#nex-forms .btn, #nex-forms p, #nex-forms div, #nex-forms label{font-family: 'Open Sans', sans-serif !important;}
+div[data-grid-name*="section-row"] > .grid_row > .grid-target-0 .the_input_element{text-align: right; font-size: 14px;color: #333; font-weight:600; /*padding-top: 10px;*/}
+div[data-grid-name*="section-row"] > .grid_row > .grid-target-0 .the_input_element a {font-style: italic;text-decoration: underline;}
+/*div[data-grid-name*="main_header_row section-row"] .the_input_element{padding-top: 10px; font-size: 14px;color: #333; font-weight:600;}*/
+#nex-forms div.inner-canvas-container .form_field {margin-bottom: 30px !important;}
+.grid_input_holder .the_input_element .input_holder {text-align: left;}
+
+#nex-forms .prettyradio>a.checked, #nex-forms .prettycheckbox>a.checked, #nex-forms label.radio-inline:hover a.checked, #nex-forms .prettyradio>a.checked:hover, #nex-forms .prettycheckbox>a.checked:hover, #nex-forms label.radio-inline:hover a.checked:hover{
+	background: #7A1C68 !important;
+}
+.the_input_element .input-inner label.disabled {
+    pointer-events: none;
+}
+
+div[data-grid-name*="border-box"] {margin-bottom: 30px;}
+div[data-grid-name*="border-box"] > .grid_row {margin: 0 !important;}
+div[data-grid-name*=border-box] .grid_input_holder {border: 1px solid #ccc;margin-left: -1px;padding-top: 20px; padding-bottom:10px;}
+#nex-forms div.inner-canvas-container div[data-grid-name*=border-box] .form_field {margin-bottom: 10px !important;}
+.the_input_element {font-size: 14px;font-weight: 600;color: #333;}
+
+div[data-grid-name*="mixed-border"] {margin-bottom:0px;}
+div[data-grid-name*=mixed-border] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=mixed-border] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align: middle;}
+
+
+div[data-grid-name*="state_immunization_coverage_row"] {margin-bottom: 30px;}
+/*div[data-grid-name*="state_immunization_coverage_row"] > .grid_row > .grid_input_holder:nth-child(2) {padding: 0 !important;}*/
+
+#nex-forms div.inner-canvas-container div[data-grid-name*=mixed-border] .form_field {margin-bottom: 15px !important;}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(2) {padding:0px !important;}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(2) .grid_input_holder{border-top:none; border-bottom: none;}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(2) .grid_input_holder:first-child{border-left:none;}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(2) .grid_input_holder:last-child{border-right:none;}
+
+#nex-forms div[data-grid-name*=mixed-border] > .grid_row textarea{margin-top: 15px !important;}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder .grid_input_holder {padding-top: 15px;}
+
+div[data-grid-name*="state_drop_out_rates_2019_20_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element,
+div[data-grid-name*="state_immunization_coverage_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element {padding-top: 15px;}
+
+div[data-grid-name*=mixed-border]:nth-child(1) > .grid_row > .grid_input_holder {padding: 15px 15px 0px 15px !important;}
+
+/*new*/
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(2) .form_field {padding-left: 15px;padding-right: 15px;}
+div[data-grid-name*="vaccine_and_logistics_management_row"] div[data-grid-name*="mixed-border"]:last-child {margin-bottom: 30px;}
+
+div[data-grid-name*="vaccine_and_logistics_management_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element{padding-top: 0px;}
+div[data-grid-name*="vaccine_and_logistics_management_row"] div[data-grid-name*="mixed-border"] + div[data-grid-name*="mixed-border"] .grid_input_holder .form_field {padding-top:15px !important;}
+
+div[data-grid-name*="monitoring_supervision_row"] div[data-grid-name*=mixed-border]:last-child{margin-bottom: 30px !important;}
+div[data-grid-name*="monitoring_supervision_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element{padding-top: 0px;}
+div[data-grid-name*="monitoring_supervision_row"] div[data-grid-name*="mixed-border"] + div[data-grid-name*="mixed-border"] .grid_input_holder .form_field {padding-top:15px !important;}
+
+div[data-grid-name*="adverse_events_following_immunization_aefi_row"] div[data-grid-name*=mixed-border]:last-child{margin-bottom: 30px !important;}
+div[data-grid-name*="adverse_events_following_immunization_aefi_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element{padding-top: 0px;}
+div[data-grid-name*="adverse_events_following_immunization_aefi_row"] div[data-grid-name*="mixed-border"] + div[data-grid-name*="mixed-border"] .grid_input_holder .form_field {padding-top:15px !important;}
+
+div[data-grid-name*="cold_chain_maintenance_row"] div[data-grid-name*=mixed-border]:last-child{margin-bottom: 30px !important;}
+div[data-grid-name*="cold_chain_maintenance_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element{padding-top: 0px;}
+div[data-grid-name*="cold_chain_maintenance_row"] div[data-grid-name*="mixed-border"] + div[data-grid-name*="mixed-border"] .grid_input_holder .form_field {padding-top:15px !important;}
+
+div[data-grid-name*="general_impressions_row"] div[data-grid-name*=mixed-border]:last-child{margin-bottom: 30px !important;}
+div[data-grid-name*="general_impressions_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element{padding-top: 0px;}
+div[data-grid-name*="general_impressions_row"] div[data-grid-name*="mixed-border"] + div[data-grid-name*="mixed-border"] .grid_input_holder .form_field {padding-top:15px !important;}
+
+
+#nex-forms div[data-grid-name*="input-with-text"] #datetimepicker{position: relative;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .input-group-addon {border: none;padding: 0;background: transparent !important;color: #7A1C68 !important;box-shadow: none !important;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder #datetimepicker .form-control{padding-left: 30px !important}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder #datetimepicker {max-width: 150px;}
+
+
+div[data-grid-name*="cold_chain_space_table"] .the_input_element {text-align: left !important;}
+div[data-grid-name*="section-row"] > .grid_row > .grid-target-0 .the_input_element .custom-modal {text-align: left;}
+
+#nex-forms .inner-canvas-container textarea.form-control {resize: none;}	
+
+#nex-forms div[data-grid-name*="formula-content"] .form_field {margin-bottom: 0px !important;}
+#nex-forms div[data-grid-name*="formula-content"] .form_field:last-child{margin-bottom: 30px !important;}
+
+#nex-forms div[data-grid-name*="left-content-box"] .form_field {margin-bottom: 0px !important;}
+#nex-forms div[data-grid-name*="left-content-box"] .form_field:last-child{margin-bottom: 30px !important;}
+
+#nex-forms .nf_title  .the_label.style_bold.style_underline{
+color: #333 !important;
+margin-bottom: 10px;
+}
+
+div[data-grid-name*="mobilization_row section-row"] > .grid_row > .grid-target-0 .the_input_element{text-align: left;}
+
+/*new*/
+#nex-forms div[data-grid-name*=form_step_title] .the_input_element {background: #7A1C68;text-align: center !important;color: #fff;padding: 14px 10px;font-size: 18px;}
+div[data-grid-name*="main_header_row section-row"] .the_input_element {font-size: 16px !important;color: #7A1C68 !important;font-weight: 900 !important; /*padding-top: 10px;*/}
+
+#nex-forms .inner-canvas-container input[type="text"], 
+#nex-forms .inner-canvas-container textarea.form-control {
+    background: #FFF !important;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    box-shadow: 0px 3px 6px rgba(0,0,0,0.05) !important;
+}
+#nex-forms .prettyradio a, #nex-forms .prettycheckbox a {background: #fff; box-shadow: 0px 3px 6px rgba(0,0,0,0.05) !important;}
+
+#nex-forms .inner-canvas-container input:focus, #nex-forms .inner-canvas-container select:focus, #nex-forms .inner-canvas-container textarea:focus, #nex-forms .inner-canvas-container input.form-control:focus, #nex-forms .inner-canvas-container select.form-control:focus, #nex-forms .inner-canvas-container textarea.form-control:focus{border-color: #7A1C68 !important}
+
+#nex-forms .inner-canvas-container .v7_container{background: #F2F2F2 !important; border:1px solid #ddd !important}
+
+#nex-forms .input-label:not(.image-choices-choice-text){margin-top: -16px;}
+
+
+#nex-forms .inner-canvas-container .input-group-addon.prefix {
+    border-bottom-right-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+    box-shadow: 0px 4px 6px rgba(0,0,0,0.05) !important;
+    border-color: transparent !important;
+    background: #7A1C68 !important;
+    color: #fff !important;
+}
+
+#nex-forms .input-group-addon.btn-file,
+#nex-forms .input-group-addon.fileinput-exists{color: #7A1C68 !important;}
+
+
+#nex-forms .input-group .form-control, 
+#nex-forms .input-group-addon, #nex-forms .input-group-btn {box-shadow: 0 3px 6px rgba(0,0,0,0.05) !important;}
+
+#nex-forms div[data-grid-name*="name_of_state"] .the_input_element{padding-top: 0px !important}
+div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:nth-child(4) .form_field {padding-right: 15px !important;}
+
+.the_input_element .title-with-icon {margin-top: 10px;}
+.the_input_element .title-with-icon h5 {font-weight: 600 !important;color: #333 !important;}
+
+#nex-forms div[data-grid-name*="vaccine_and_logistics_management_row"] div[data-grid-name*="input-with-text"] .grid_input_holder > div {vertical-align: top;padding-right: 30px;}
+
+div[data-grid-name*="border-cell"] .grid_input_holder .grid_input_holder {border: none; padding: 0px;}
+div[data-grid-name*="border-cell"] .grid_input_holder .grid-system-1{margin-bottom: 0px !important}
+div[data-grid-name*="border-cell"] > .grid_row {display: table;width: 100%;margin: 0 !important;}
+div[data-grid-name*="border-cell"] > .grid_row > .grid_input_holder {display: table-cell;float: none !important;}
+
+#nex-forms div[data-grid-name*="vaccine-beyond-expiry"] .grid_row{height: 100%;}
+#nex-forms div[data-grid-name*="vaccine-beyond-expiry"] .grid_row .grid_input_holder{border:none !important; padding: 0px !important; height: 100% !important;}
+#nex-forms div[data-grid-name*="vaccine-beyond-expiry"] .grid_row .grid_input_holder > .form_field {border: 1px solid #ccc !important;padding: 10px;height: 100% !important;min-height: 100%;float: none !important;margin-bottom: 0px !important; margin-right: -1px !important;}
+div[data-grid-name*="mixed-border"]:last-of-type {margin-bottom: 30px;}
+
+#nex-forms div[data-grid-name*="input-with-info"] {margin-bottom: 0px !important;}
+#nex-forms div[data-grid-name*="input-with-info"] .form_field:last-of-type {position: absolute !important;right:10px;top: -12px !important;padding: 0px; margin: 0px;}
+#nex-forms div[data-grid-name*="input-with-info"] .grid_input_holder .form-control{padding-right: 25px !important;}
+#nex-forms div[data-grid-name*="input-with-info"] .grid_input_holder {padding: 0;}
+
+#nex-forms div[data-grid-name*="input-with-info bottom-align"] .form_field:last-of-type {top: auto !important;bottom: 20px;right: 10px;}
+#nex-forms div[data-grid-name*="input-with-info bottom-align"] .form_field:nth-child(3){ vertical-align: bottom; padding-bottom: 10px;}
+#nex-forms div[data-grid-name*="input-with-info bottom-align"] {width: auto;display: inline-block;}
+
+#nex-forms div.inner-canvas-container div[data-grid-name*=mixed-border] .grid_input_holder > .form_field {padding: 0;}
+
+div[data-grid-name*="calculate_vaccine_wastage_for_penta_row"] div[data-grid-name*=mixed-border] > .grid_row > .grid_input_holder:first-child .the_input_element {padding-top: 0;}
+
+div[data-grid-name*="subtext-with-italic"] {background: #ddd;padding: 10px 15px; margin-bottom: 30px;}
+#nex-forms div[data-grid-name*="subtext-with-italic"] .form_field{margin-bottom: 0px !important;}
+div[data-grid-name*="subtext-with-italic"] .the_input_element{font-size: 13px !important; font-style: italic;}
+.the_input_element .title-with-icon {display: inline-block;}
+
+
+div[data-grid-name*="calculate_vaccine_wastage_for_penta_row"] div[data-grid-name*=mixed-border] .grid_row .grid_input_holder{ vertical-align: middle; }
+
+#nex-forms div[data-grid-name*="input-with-info"] .the_input_element .title-with-icon {margin-top: 0;}
+
+
+
+/*new box style*/
+div[data-grid-name*=state_immunization_coverage_inner_row] .grid_row .grid_input_holder{vertical-align: top;}
+.the_input_element .title-with-icon {margin: 0 !important;}
+
+
+div[data-grid-name*="vaccines-9-4"] {margin-bottom:0px;}
+div[data-grid-name*="vaccines-9-4"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=vaccines-9-4] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=vaccines-9-4] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=vaccines-9-4] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+#nex-forms div[data-grid-name*="vaccines-9-4"] .radio-inline{padding-bottom: 5px !important;}
+
+div[data-grid-name*="supervisory-11"] {margin-bottom:0px;}
+div[data-grid-name*="supervisory-11"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=supervisory-11] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=supervisory-11] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=supervisory-11] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*="AEFIS-12-5"] {margin-bottom:0px;}
+div[data-grid-name*="AEFIS-12-5"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=AEFIS-12-5] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=AEFIS-12-5] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=AEFIS-12-5] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+
+div[data-grid-name*="cold_chain-16-17"] {margin-bottom:0px;}
+div[data-grid-name*="cold_chain-16-17"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=cold_chain-16-17] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=cold_chain-16-17] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=cold_chain-16-17] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*="general-impressions-17-2"] {margin-bottom:0px;}
+div[data-grid-name*="general-impressions-17-2"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=general-impressions-17-2] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=general-impressions-17-2] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=general-impressions-17-2] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+
+div[data-grid-name*="MOS-2-10"] {margin-bottom:0px;}
+div[data-grid-name*="MOS-2-10"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=MOS-2-10] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=MOS-2-10] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding:0px !important}
+#nex-forms div[data-grid-name*=MOS-2-10] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*=MOS-2-10] .grid_row .grid_input_holder .grid_input_holder {height: 70px;border-top: none;border-bottom: none;padding: 0 15px !important;}
+div[data-grid-name*=MOS-2-10] > .grid_row .grid_input_holder .grid_input_holder:first-child {border-left: none;}
+div[data-grid-name*=MOS-2-10] > .grid_row .grid_input_holder .grid_input_holder:last-child {border-right: none;}
+div[data-grid-name*=MOS-2-10] > .grid_row > .grid_input_holder > .form_field {padding: 15px 15px;}
+
+
+div[data-grid-name*="guidelines-2-15"] {margin-bottom:0px;}
+div[data-grid-name*="guidelines-2-15"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=guidelines-2-15] > .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=guidelines-2-15]  > .grid_row > .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:top; padding: 15px !important}
+#nex-forms div[data-grid-name*=guidelines-2-15] .grid_row .grid_input_holder .form_field{margin-bottom:10px !important}
+#nex-forms div[data-grid-name*=guidelines-2-15] div[data-grid-name*="input-with-text"] .grid_input_holder > div{vertical-align: top;}
+#nex-forms div[data-grid-name*=guidelines-2-15] div[data-grid-name*="input-with-text"] .grid_input_holder .form-control{min-width: 130px;}
+
+
+div[data-grid-name*=common-table]{margin-bottom:0px;}
+div[data-grid-name*=common-table]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=common-table] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=common-table] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding: 15px !important}
+#nex-forms div[data-grid-name*=common-table] .grid_row .grid_input_holder .form_field:last-of-type{margin-bottom: 0px !important}
+
+
+div[data-grid-name*="demographic-data-3-1"] {margin-bottom:0px;}
+div[data-grid-name*="demographic-data-3-1"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=demographic-data-3-1] > .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=demographic-data-3-1]  > .grid_row > .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:top; padding: 15px !important}
+#nex-forms div[data-grid-name*=demographic-data-3-1] .grid_row .grid_input_holder .form_field{margin-bottom:10px !important}
+#nex-forms div[data-grid-name*=demographic-data-3-1] div[data-grid-name*="input-with-text"]{margin-bottom: 0px;}
+#nex-forms div[data-grid-name*=demographic-data-3-1] div[data-grid-name*="input-with-text"] .grid_input_holder > div{vertical-align: top;}
+
+
+div[data-grid-name*=immunization-3-2] {margin-bottom:0px;}
+div[data-grid-name*=immunization-3-2]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=immunization-3-2] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=immunization-3-2] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:top; padding:0px !important}
+#nex-forms div[data-grid-name*=immunization-3-2] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*=immunization-3-2] .grid_row .grid_input_holder .grid_input_holder {height:50px;border-top: none;border-bottom: none;padding: 0 15px !important;}
+div[data-grid-name*=immunization-3-2] > .grid_row .grid_input_holder .grid_input_holder:first-child {border-left: none;}
+div[data-grid-name*=immunization-3-2] > .grid_row .grid_input_holder .grid_input_holder:last-child {border-right: none;}
+div[data-grid-name*=immunization-3-2] > .grid_row > .grid_input_holder > .form_field {padding: 15px 15px;}
+
+div[data-grid-name*=immunization-3-2] > .grid_row > .grid_input_holder .grid-system-1 .grid_input_holder {padding: 15px 15px 0 !important;}
+div[data-grid-name*=immunization-3-2] > .grid_row > .grid_input_holder .grid-system-1 .grid_input_holder .grid_input_holder {padding: 0 !important;}
+#nex-forms div[data-grid-name*=immunization-3-2] div[data-grid-name*="input-with-info"]{margin-top: 15px !important}
+
+
+div[data-grid-name*=drop‐out-3-3] {margin-bottom:0px;}
+div[data-grid-name*=drop‐out-3-3]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=drop‐out-3-3] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=drop‐out-3-3] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:top; padding:0px !important}
+#nex-forms div[data-grid-name*=drop‐out-3-3] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*=drop‐out-3-3] .grid_row .grid_input_holder .grid_input_holder {height:50px;border-top: none;border-bottom: none;padding: 0 15px !important;}
+div[data-grid-name*=drop‐out-3-3] > .grid_row .grid_input_holder .grid_input_holder:first-child {border-left: none;}
+div[data-grid-name*=drop‐out-3-3] > .grid_row .grid_input_holder .grid_input_holder:last-child {border-right: none;}
+div[data-grid-name*=drop‐out-3-3] > .grid_row > .grid_input_holder > .form_field {padding: 15px 15px;}
+
+div[data-grid-name*=drop‐out-3-3] > .grid_row > .grid_input_holder .grid-system-1 .grid_input_holder {padding: 15px 15px 0 !important;}
+div[data-grid-name*=drop‐out-3-3] > .grid_row > .grid_input_holder .grid-system-1 .grid_input_holder .grid_input_holder {padding: 0 !important;}
+#nex-forms div[data-grid-name*=drop‐out-3-3] div[data-grid-name*="input-with-info"]{margin-top:5px !important}
+#nex-forms div[data-grid-name*="drop‐out-3-3"] div[data-grid-name*="input-with-info"] {display: inline-block;max-width: 150px; }
+#nex-forms div[data-grid-name*="drop‐out-3-3"] div[data-grid-name*="input-with-info"] .grid_input_holder{padding: 0 0 0 20px !important;}
+
+#nex-forms div[data-grid-name*=align-top] .grid_row .grid_input_holder{vertical-align: top;}
+
+div[data-grid-name*="radio-inline-tooltip"] .grid_input_holder:last-child .form_field {display: inline-block;vertical-align: top;}
+
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .fileinput{max-width: 200px;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .form-control .fileinput-exists{display: none;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .the_input_element span.fileinput-filename{left: 0; top: 0px; line-height: 18px;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .has_postfix_icon .error_msg.modern {right: -10px !important;left: auto;top: 1px;}
+#nex-forms div[data-grid-name*="input-with-text"] .grid_input_holder .upload-single .modern {right: 80px !important;top: -2px;}
+
+#nex-forms div[data-grid-name*="input-with-text"] .upload-single + .form_field .title-with-icon{position: relative; top: -2px;}
+
+
+div[data-grid-name*=monitoring-9-4] {margin-bottom:0px;}
+div[data-grid-name*=monitoring-9-4]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=monitoring-9-4] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important; border-collapse: collapse; height: 100%;}
+div[data-grid-name*=monitoring-9-4] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: none !important;padding: 0px !important;height: 100% !important;}
+div[data-grid-name*=monitoring-9-4] .radio-inline{padding-bottom: 0px !important;}
+div[data-grid-name*=monitoring-9-4] .grid_row .grid_input_holder .form_field{padding:10px !important; height: 100% !important;border: 1px solid #ccc !important;padding: 10px;height: 100% !important;min-height: 100%;float: none !important;}
+div[data-grid-name*=monitoring-9-4] .grid_row .grid_input_holder ~ .grid_input_holder .form_field{border-left: none !important;}
+#nex-forms div[data-grid-name*=monitoring-9-4] .grid_row .grid_input_holder .form_field {margin-bottom: 0px !important;}
+#nex-forms div[data-grid-name*=monitoring-9-4]:last-child .grid_input_holder > div{width: 100%;}
+
+    
+
+div[data-grid-name*="programmatic-17-1"] {margin-bottom:0px;}
+div[data-grid-name*="programmatic-17-1"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=programmatic-17-1] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important;     border-collapse: collapse;}
+div[data-grid-name*=programmatic-17-1] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: 1px solid #ccc; vertical-align:middle; padding:0px !important}
+#nex-forms div[data-grid-name*=programmatic-17-1] .grid_row .grid_input_holder .form_field{margin-bottom: 0px !important}
+
+div[data-grid-name*=programmatic-17-1] > .grid_row > .grid_input_holder .grid_input_holder{border-top: none;border-bottom: none;padding: 0 15px !important;}
+div[data-grid-name*=programmatic-17-1] > .grid_row .grid_input_holder .grid_input_holder:first-child {border-left: none;}
+div[data-grid-name*=programmatic-17-1] > .grid_row .grid_input_holder .grid_input_holder:last-child {border-right: none;}
+div[data-grid-name*=programmatic-17-1] > .grid_row > .grid_input_holder > .form_field {padding: 15px 15px;}
+
+#nex-forms div[data-grid-name*=programmatic-17-1] div[data-grid-name*="input-with-text"]{margin-bottom: 15px !important;}
+/*#nex-forms div[data-grid-name*=programmatic-17-1] div[data-grid-name*=MOS-2-10] .grid_row .grid_input_holder .form_field[style*="display: inline-block"] {margin-bottom: 20px !important;}*/
+
+
+div[data-grid-name*="innovative-17-3"] {margin-bottom:0px;}
+div[data-grid-name*="innovative-17-3"]:last-of-type {margin-bottom: 30px;}
+div[data-grid-name*=innovative-17-3] .grid_row {display: table;width: 100%;table-layout: fixed;margin: -1px 0px 0px !important; border-collapse: collapse; height: 100%;}
+div[data-grid-name*=innovative-17-3] .grid_row .grid_input_holder {display: table-cell;float: none !important; border: none !important;padding: 0px !important;height: 100% !important;}
+
+div[data-grid-name*="innovative-17-3"] .radio-inline{padding-bottom: 0px !important;}
+div[data-grid-name*=innovative-17-3] .grid_row .grid_input_holder .form_field{padding:10px !important; height: 100% !important;border: 1px solid #ccc !important;padding: 10px;height: 100% !important;min-height: 100%;float: none !important;}
+div[data-grid-name*=innovative-17-3] .grid_row .grid_input_holder ~ .grid_input_holder .form_field{border-left: none !important;}
+#nex-forms div[data-grid-name*=innovative-17-3] .grid_row .grid_input_holder .form_field {margin-bottom: 0px !important;}
+
+#nex-forms div[data-grid-name*=innovative-17-3]:last-child .grid_input_holder > div{width: 100%;}
+
+#nex-forms div[data-grid-name*="input-with-info bottom-align"] .form_field:nth-child(2) {max-width: 270px;}
+
+#nex-forms div[data-grid-name*="input-with-info bottom-align dist-10-1"] .form_field:nth-child(1) {max-width: 360px;}
+#nex-forms div[data-grid-name*="input-with-info bottom-align dist-10-1"] .form_field:nth-child(2) {vertical-align: bottom;padding-bottom: 10px;}
+#nex-forms div[data-grid-name*="input-with-info bottom-align dist-10-1"] .form_field:nth-child(3) {vertical-align: bottom;padding-bottom:0px;}
+
+div#nex-forms div.text_counter_holder{    padding: 0px 15px 0; bottom: -20px;}
+
+#nex-forms div[data-grid-name*="formula_do_you_use_to_forecast_vaccine_requirements_row"] div[data-grid-name*="input-with-info"] .grid_input_holder{padding-left:15px;}
+.modal-content .frac sup {margin-bottom: 7px;padding-bottom: 5px;}
+
+#nex-forms div[data-grid-name*="other-field"] {margin-top: 15px !important; margin-bottom: 0px;}
+#nex-forms div[data-grid-name*="other-field"] .grid_input_holder > div{padding-right: 0px;}
+#nex-forms div[data-grid-name*="other-field"] .grid_input_holder .title-with-icon .info-icon {margin-left: 2px; position: relative; top: -2px;}
+    
+#nex-forms div[data-grid-name*="other-field"] .grid_row {margin: 0;}
+#nex-forms div[data-grid-name*="other-field"] .grid_row > div {padding: 0;}
+
+#nex-forms div[data-grid-name*="no-padding"] {margin: 0;}
+#nex-forms div[data-grid-name*="no-padding"] .grid_row > div {padding: 0;}
+#nex-forms div[data-grid-name*="no-padding"] .grid_row {margin: 0px !important;}
+
+#nex-forms div[data-grid-name*="inline-field-box"] .title-with-icon .info-icon{margin-left: 0px; position: relative; top: -2px;}
+
+#nex-forms .form_field .fileinput .form-control .fileinput-exists{vertical-align: top;margin-top: 3px; line-height: normal; color: #7A1C68;}
+#nex-forms .fileinput .the_input_element span.fileinput-filename{line-height: 31px;top: -48px;}
+
+#nex-forms div[data-grid-name*="stf-date"] {margin-top: 20px;}
+
+#nex-forms div[data-grid-name*="formula_do_you_use_to_forecast_vaccine_requirements_row"] div[data-grid-name*="input-with-info bottom-align"] .form_field:last-of-type {
+top: auto !important;bottom: 7px;right: auto;left: 300px;}
+#nex-forms div[data-grid-name*="forecast-9-1"] div[data-grid-name*="input-with-info bottom-align"] .form_field:last-of-type {
+top: auto !important;bottom: 7px;right: auto;left: 285px;}
+#nex-forms div[data-grid-name*="waste_management_injection_safety_row"] div[data-grid-name*="input-with-info bottom-align"] .form_field:last-of-type {
+top: auto !important;bottom: 7px;right: auto;left: 85px;}
+
+#nex-forms .fileinput .the_input_element span.fileinput-filename{white-space: pre;}
+#nex-forms div[data-grid-name*="monitoring-9-4"] .checkbox-inline{padding-bottom: 5px !important;}
+div[data-grid-name*=monitoring_supervision_row] div[data-grid-name*=common-table] + .form_field{margin-top: 30px;}
+
+#nex-forms div[data-grid-name*=pcv-radio-14-3] .radio-group {margin-right: 10px; display: inline-block;}
+#nex-forms div[data-grid-name*=pcv-radio-14-3] .grid-system-2 {display: inline-block;}
+
+
+#nex-forms div[data-grid-name*=pcv-radio-14-4] .radio-group {margin-right:0px; display: inline-block;}
+#nex-forms div[data-grid-name*=pcv-radio-14-4] .grid-system-2 {display: inline-block;}
+
+#nex-forms .nf-has-error .form-control,
+#nex-forms .nf-has-error .input-group-addon {border-color: #f77b72 !important;}
+
+
+
+
+/*responsive start*/
+@media screen and (min-width:1500px){
+	.state-checklist-form > .container{width: 1475px;}
+}
+
+
+@media screen and (max-width:1199px){
+	/*.state-checklist-form .container {width: 100%;overflow: auto;}
+	#nex-forms {min-width: 1000px;}*/
+	.v7_container.form_type_normal{padding:30px !important}	
+
+	.custom-fields.step div[data-grid-name="step-box"]{width: 100%;overflow: auto; padding-bottom: 20px}
+	.custom-fields.step div[data-grid-name="step-box"] > .row{min-width: 1000px;}
+}
+@media screen and (max-width:991px){
+	
+}
+@media screen and (max-width:767px){
+	
+	
+}
+@media screen and (max-width:479px){
+	
+
+	
+
+}
